@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function in js</title>
+</head>
+<body>
+    <h1 name="javascript" id="first" class="js">function in javascript</h1>
+    <h2 name="javascript" id="second" class="js">good morning</h2>
+    <h2 name="javascript" id="third" class="js">pro skill</h2>
+    <button onclick="addValue()">click to add two value</button>
+    <input id="a" value="" placeholder="enter a value">
+    <input id="b" value="" placeholder="enter b value">
+    <input id="show" value="" placeholder="Result">
+    <script>
+        function addValue(){
+            let a = document.getElementbyId("a").value
+            let b = document.getElementbyId("b").value
+
+            document.getElementbyId("show").value=parseInt(a)+parseInt(b)
+        }
+        addValue();
+    </script>
+
+    </body>    
+</html>
