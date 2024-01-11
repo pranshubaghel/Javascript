@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function return</title>
+</head>
+
+<body>
+
+    <script>
+        // function fullname(fname, lname) {
+        //     var a = "hello " + fname + " " + lname + "<br>";
+
+        //     return a;
+
+        // };
+
+        // var b = fullname("pranshu", "singh");
+        // document.write(b);
+
+        // Example-02
+
+        document.write("Total subject - 5 <br> Total marks - 500 <br><br>");
+        function summarks(hindi, eng, math, phy, chem) {
+
+            let a = hindi + eng + math + phy + chem;
+            return a;
+        };
+
+        let b = summarks(50, 50, 50,90,80);
+        document.write("total obtain marks -" + b + "<br>");
+
+        function percentage(totalmarks) {
+
+            let c = totalmarks / 500 * 100;
+            return c;
+        };
+
+        let d = percentage(b);
+        document.write("percentage - " + d + "%");
+
+
+    </script>
+</body>
+
+</html>
